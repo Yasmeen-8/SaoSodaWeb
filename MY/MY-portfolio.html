@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="my-style.css">
+</head>
+
+<script>
+function start(){
+    document.getElementById("video-content").style.display = "block";
+    document.getElementById("doc_and_contact-content").style.display = "none";
+    document.getElementById("certificates_and_testimonials-content").style.display = "none";
+    document.getElementById("examples-content").style.display = "none";
+
+    document.getElementById("video").style.marginLeft = "-10%";
+}
+</script>
+
+<body class="portfolio" onload="start()">
+    <div class="semi-circle"></div>
+    <div class="vinyl">
+        <button id="video" type="button">video</button>
+        <button id="doc_and_contact" type="button">Docs & contract</button>
+        <button id="certificates_and_testimonials" type="button">certificates & Testimonials</button>
+        <button id="examples" type="button">Examples</button>
+    </div>
+
+    <div class="content">
+
+
+        <div id="video-content">
+            <div>
+            <h2>Video</h2>
+            <p>This section contains videos showcasing my work and projects.</p>
+            </div>
+            <video controls>
+                <source src="MY\test.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+
+        <div id="doc_and_contact-content">
+            <h2>Docs & Contact</h2>
+            <p>This section contains documentation and contact information.</p>
+        </div>
+
+
+        <div id="certificates_and_testimonials-content">
+            <h2>Certificates & Testimonials</h2>
+            <p>This section contains certificates and testimonials from clients and colleagues.</p>
+        </div>
+
+
+        <div id="examples-content">
+            <h2>Examples</h2>
+            <p>This section contains examples of my work and projects.</p>
+        </div>
+
+
+    </div>
+    <script src="MY-javascript.js"></script>
+</body>
+</html>

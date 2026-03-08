@@ -1,0 +1,104 @@
+.portfolio{
+    background-color: rgb(235, 234, 231);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.semi-circle {
+    width: 15%;
+    height: 100%;
+    background-color: rgb(168, 150, 127);
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    position: fixed;
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+}
+
+
+.vinyl{
+    position: fixed;
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+
+.vinyl button{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
+
+.vinyl button:hover{
+    background-color: rgb(33, 33, 33);
+    border: 1px solid rgb(168, 127, 168);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#video{
+    margin-left: -30%;
+}
+#doc_and_contact{
+    margin-top: 2%;
+}
+#certificates_and_testimonials{
+    margin-top: 2%;
+}
+#examples{
+    margin-left: -30%;
+}
+
+#video-content{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+#video-content > div:first-child {
+    flex-basis: 100%;
+    width: 100%;
+}
+
+#video-content video {
+    max-width: 400px;
+    flex-shrink: 0;
+}
+
+#doc_and_contact-content{
+    margin-top: 2%;
+
+}
+#certificates_and_testimonials-content{
+    margin-top: 2%;
+
+}
+#examples-content{
+    margin-top: 2%;
+}
+
+.vid_div{
+    display: flex;
+}
