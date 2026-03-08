@@ -1,10 +1,11 @@
 .portfolio{
-    background-color: rgb(235, 234, 231);
+    background-color: rgb(216, 211, 209);
     width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
+    color: rgba(54, 37, 32, 0.989);
 }
 
 @keyframes spin {
@@ -30,6 +31,7 @@
     display: flex;
     flex-flow: column wrap;
     margin: auto;
+    z-index: 1;
 }
 
 
@@ -41,8 +43,7 @@
     flex-direction: column;
     margin-bottom: 2%;
     margin-top: 2%;
-    margin-left: 10%;
-
+    margin-left: 12%;
 }
 
 .vinyl button{
@@ -50,15 +51,19 @@
   width: 150px;
   border-radius: 50%;
   border: 1px solid rgb(43, 43, 43);
-  color: white;
   background-color: black;
+  background-image: url("icon.png");
+  background-size: cover;
 }
 
 .vinyl button:hover{
     background-color: rgb(33, 33, 33);
     border: 1px solid rgb(95, 95, 95);
-    color: rgb(255, 255, 255);
     cursor: pointer;
+}
+
+.vinyl.has-transition{
+    transition: 1s;
 }
 
 .content{
@@ -72,14 +77,16 @@
     margin-left: -30%;
 }
 #doc_and_contact{
-    margin-top: 2%;
+    margin-left: -7%;
+    margin-top: 5%;
 }
 #certificates_and_testimonials{
-    margin-top: 4%;
+    margin-left: -7%;
+    margin-top: 7.5%;
 }
 #examples{
     margin-left: -30%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 #video-content{
@@ -113,6 +120,6 @@
     margin-top: 2%;
 }
 
-.vid_div{
-    display: flex;
+.trans{
+    transition: 1s;
 }

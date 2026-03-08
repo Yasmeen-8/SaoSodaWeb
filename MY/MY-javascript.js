@@ -4,9 +4,10 @@ document.getElementById("video")?.addEventListener("click", function() {
     document.getElementById("certificates_and_testimonials-content").style.display = "none";
     document.getElementById("examples-content").style.display = "none";
 
+    
     document.getElementById("video").style.marginLeft = "-5%";
-    document.getElementById("doc_and_contact").style.marginLeft = "0px";
-    document.getElementById("certificates_and_testimonials").style.marginLeft = "0px";
+    document.getElementById("doc_and_contact").style.marginLeft = "-7%";
+    document.getElementById("certificates_and_testimonials").style.marginLeft = "-7%";
     document.getElementById("examples").style.marginLeft = "-30%";
 
     spin_button("video");
@@ -14,6 +15,7 @@ document.getElementById("video")?.addEventListener("click", function() {
     stop_spin_button("certificates_and_testimonials");
     stop_spin_button("examples");
 });
+
 document.getElementById("doc_and_contact")?.addEventListener("click", function() {
     document.getElementById("video-content").style.display = "none";
     document.getElementById("doc_and_contact-content").style.display = "block";
@@ -21,8 +23,8 @@ document.getElementById("doc_and_contact")?.addEventListener("click", function()
     document.getElementById("examples-content").style.display = "none";
 
     document.getElementById("video").style.marginLeft = "-30%";
-    document.getElementById("doc_and_contact").style.marginLeft = "20%";
-    document.getElementById("certificates_and_testimonials").style.marginLeft = "0px";
+    document.getElementById("doc_and_contact").style.marginLeft = "13%";
+    document.getElementById("certificates_and_testimonials").style.marginLeft = "-7%";
     document.getElementById("examples").style.marginLeft = "-30%";
 
     spin_button("doc_and_contact");
@@ -38,8 +40,8 @@ document.getElementById("certificates_and_testimonials")?.addEventListener("clic
     document.getElementById("examples-content").style.display = "none";
 
     document.getElementById("video").style.marginLeft = "-30%";
-    document.getElementById("doc_and_contact").style.marginLeft = "0px";
-    document.getElementById("certificates_and_testimonials").style.marginLeft = "20%";
+    document.getElementById("doc_and_contact").style.marginLeft = "-7%";
+    document.getElementById("certificates_and_testimonials").style.marginLeft = "13%";
     document.getElementById("examples").style.marginLeft = "-30%";
     
     spin_button("certificates_and_testimonials");
@@ -54,8 +56,8 @@ document.getElementById("examples")?.addEventListener("click", function() {
     document.getElementById("examples-content").style.display = "block";
 
     document.getElementById("video").style.marginLeft = "-30%";
-    document.getElementById("doc_and_contact").style.marginLeft = "0px";
-    document.getElementById("certificates_and_testimonials").style.marginLeft = "0px";
+    document.getElementById("doc_and_contact").style.marginLeft = "-7%";
+    document.getElementById("certificates_and_testimonials").style.marginLeft = "-7%";
     document.getElementById("examples").style.marginLeft = "-5%";
     
     spin_button("examples");
@@ -71,8 +73,8 @@ function start(){
     document.getElementById("examples-content").style.display = "none";
 
     document.getElementById("video").style.marginLeft = "-5%";
-    document.getElementById("doc_and_contact").style.marginLeft = "0px";
-    document.getElementById("certificates_and_testimonials").style.marginLeft = "0px";
+    document.getElementById("doc_and_contact").style.marginLeft = "-5%";
+    document.getElementById("certificates_and_testimonials").style.marginLeft = "-5%";
     document.getElementById("examples").style.marginLeft = "-30%";
 
     spin_button("video");
