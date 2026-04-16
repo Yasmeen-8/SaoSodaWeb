@@ -1,11 +1,16 @@
+body{
+    background: url(Drawing.png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
 .portfolio{
-    background-color: rgb(216, 211, 209);
     width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    color: rgba(54, 37, 32, 0.989);
+    color: rgb(66, 55, 55);
 }
 
 @keyframes spin {
@@ -24,7 +29,7 @@
 .semi-circle {
     width: 15%;
     height: 100%;
-    background-color: rgba(168, 150, 127, 0.479);
+    background-color: rgba(82, 60, 51, 0.76);
     border-bottom-right-radius: 100%;
     border-top-right-radius: 100%;
     position: fixed;
@@ -104,7 +109,7 @@
 }
 
 #video-content video {
-    max-width: 400px;
+    max-width: 700px;
     flex-shrink: 0;
 }
 
